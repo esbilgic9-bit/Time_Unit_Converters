@@ -1,0 +1,6 @@
+total_seconds = int(input("Enter the total number of seconds: \n"))
+hours=total_seconds//3600
+remaining_seconds=total_seconds%3600
+minutes=remaining_seconds//60
+seconds=remaining_seconds%60
+print(f"the total time is {hours} hours, {minutes} minutes and {seconds} seconds")
