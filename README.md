@@ -27,3 +27,12 @@ An advanced version that handles much larger durations by calculating:
 Simply run the scripts using Python:
 ```bash
 python full_time_converter.py
+
+### 🚀 The Optimization Challenge (Refactored Version)
+I have updated the logic to be more professional and efficient. Instead of repetitive calculations, I used a sequential approach with variables to make the code cleaner and easier to read.
+
+**Key Improvements:**
+* **Reduced Redundancy:** Calculated units step-by-step using a "remaining seconds" variable.
+* **Better Readability:** The code is now much shorter and follows professional Python standards.
+* **Logic Clarity:** Uses integer division (`//`) and modulo (`%`) more effectively to track data flow.
+*
